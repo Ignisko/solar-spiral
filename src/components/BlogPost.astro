@@ -1,6 +1,16 @@
 ---
-const { title, url } = Astro.props;
+interface Props {
+  url: string;
+  title: string;
+  description?: string;
+  pubDate?: string; 
+}
+
+const { url, title, description, pubDate } = Astro.props as Props;
 ---
-<!-- Add the templating used to create each item in a blog post list. -->
-<li><a href={url}>{title}</a></li>
-<!-- Import the new component into your Blog page. -->
+
+<a href={url}> 
+  <h3>{title}</h3> 
+  {description && <p>{description}</p>}
+  {pubDate && <p>Published on: {pubDate}</p>} 
+</a>

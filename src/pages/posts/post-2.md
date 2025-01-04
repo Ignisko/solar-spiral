@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'My Second Blog Post'
+title: 'astro mini guide for dummies'
 pubDate: 2024-12-28
 description: 'This is the second post of my new Astro blog.'
 author: 'iggy'
@@ -17,7 +17,7 @@ December 29th, 2024
 ### intro and new laptop
 
 a few months ago, i was in singapore and my tech friend told me about astro. i was excited to try it! but, i didn't have a computer. luckily, i got a used laptop from a polish ngo who i volunteered for called "uwolnij złomka". it's a bit slow, but i'm so glad i can use it to learn.
-Strona główna - Uwolnij Złomka
+[Uwolnij Złomka](https://uwolnijzlomka.org/)
 
 ### learning CS & website development
 
@@ -69,18 +69,21 @@ Meanwhile i le-learned git basics
 https://www.geeksforgeeks.org/what-is-git-push/
 And it helped me to move the code to repo and track progress.
 
-### open the command prompt.
-go to my project folder: cd "c:\users\visitor\onedrive\dokumenty\projektygithub\solar-spiral" (replace with your folder path)
-add all changes: git add .
-save changes with a message: git commit -m "my message"
-send changes to github: git push origin main
-if there's an error, i close the command prompt and try this first: git fetch origin main
-then try pushing again: git push origin main
+1. open the command prompt
+2. go to project folder: 
+cd "c:\users\visitor\onedrive\dokumenty\projektygithub\solar-spiral" 
+(replace with your folder path)
+3. add all changes: git add .
+4. save changes with a message: git commit -m "my message"
+5. send changes to github: git push origin main
+6. if there's an error, i close the command prompt and try this first: 
+   git fetch origin main
+7. then try pushing again: git push origin main
 
 
 ### running my website locally
 
-Then when i tried to run my website on the local host command prompt command prompt was showing errors. With gemini help i discovered a way to run it on PowerShell. I’m posting it to past me or someone else if you have the same struggle to figure it out.
+then when i tried to run my website on the local host command prompt command prompt was showing errors. With gemini help i discovered a way to run it on PowerShell. I’m posting it to past me or someone else if you have the same struggle to figure it out.
 
 ### search for powershell in windows.
 
