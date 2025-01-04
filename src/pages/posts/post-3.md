@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Overcoming Challenges'
 pubDate: 2024-12-29 
-description: 'A post about facing setbacks and learning in public.'
+description: 'talkin'
 author: 'iggy'
 image: 
   url: 'https://example.com/your-image.jpg' 

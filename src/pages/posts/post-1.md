@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'My First Blog Post'
+title: 'the first one'
 pubDate: 2024-12-28
 description: 'This is the first post this blog'
 author: 'iggy'
@@ -12,6 +12,6 @@ tags: ["astro", "blogging", "learning in public"]
 
 work on progress
 
-## What I've accomplished
+## what I've accomplished
 
 first blog post done
